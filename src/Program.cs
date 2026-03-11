@@ -29,7 +29,8 @@ internal class terminal_guiWindow : Window
 {
     public terminal_guiWindow()
     {
-        string jsonString = File.ReadAllText("pokeInfos.json");
+        string jsonPath = Path.Combine(AppContext.BaseDirectory, "pokeInfos.json");
+        string jsonString = File.ReadAllText(jsonPath);
 
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var pokemonList = JsonSerializer.Deserialize(jsonString, MyJsonContext.Default.ListPokemon);
