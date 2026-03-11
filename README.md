@@ -2,6 +2,10 @@
 
 Pokete is a Pokedex written in Terminal.Gui
 
+<p align="center">
+	<img src="assets/pokete.png" width="822">
+</p>
+
 ## Features
 - Buttons for the Pokemons
 - Easily accessible thanks to being a terminal app
