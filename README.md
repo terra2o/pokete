@@ -23,3 +23,6 @@ cd bin/Release/net10.0/linux-x64/publish
 ./pokete
 ```
 If you want, you can add `pokete` and `pokeInfos.json` to a directory that's in your PATH, so that you can access this app by simply typing `pokete` in your terminal.
+
+## Note
+The JSON file was AI GENERATED. Because Pokedex JSON files I found on the internet had too much information for what I wanted. Please make few changes to the source code and replace the JSON file with something like [this](https://github.com/Purukitto/pokemon-data.json/blob/master/pokedex.json) if you wish.
